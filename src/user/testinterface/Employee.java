@@ -9,6 +9,7 @@ public class Employee implements Comparable<Employee>
     private double salary;
     public Employee(String n, double s){
         name = n;
+
         salary = s;
     }
     public String getName(){
